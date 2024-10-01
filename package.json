@@ -1,11 +1,10 @@
 {
-  "name": "fastify-http-errors-enhanced",
-  "version": "5.0.4",
+  "name": "@kou029w/fastify-http-errors-enhanced",
+  "version": "6.0.0",
   "description": "A error handling plugin for Fastify that uses enhanced HTTP errors.",
-  "homepage": "https://sw.cowtech.it/fastify-http-errors-enhanced",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ShogunPanda/fastify-http-errors-enhanced.git"
+    "url": "git+https://github.com/kou029w/fastify-http-errors-enhanced.git"
   },
   "keywords": [
     "fastify",
@@ -14,7 +13,7 @@
     "http-errors-enhanced"
   ],
   "bugs": {
-    "url": "https://github.com/ShogunPanda/fastify-http-errors-enhanced/issues"
+    "url": "https://github.com/kou029w/fastify-http-errors-enhanced/issues"
   },
   "author": "Shogun <shogun@cowtech.it>",
   "license": "ISC",

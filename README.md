@@ -1,9 +1,9 @@
 # fastify-http-errors-enhanced
 
-[![Version](https://img.shields.io/npm/v/fastify-http-errors-enhanced.svg)](https://npm.im/fastify-http-errors-enhanced)
-[![Dependencies](https://img.shields.io/librariesio/release/npm/fastify-http-errors-enhanced)](https://libraries.io/npm/fastify-http-errors-enhanced)
-[![Build](https://github.com/ShogunPanda/fastify-http-errors-enhanced/workflows/CI/badge.svg)](https://github.com/ShogunPanda/fastify-http-errors-enhanced/actions?query=workflow%3ACI)
-[![Coverage](https://img.shields.io/codecov/c/gh/ShogunPanda/fastify-http-errors-enhanced?token=ep3IRURLnT)](https://codecov.io/gh/ShogunPanda/fastify-http-errors-enhanced)
+[![Version](https://img.shields.io/npm/v/@kou029w/fastify-http-errors-enhanced.svg)](https://npm.im/@kou029w/fastify-http-errors-enhanced)
+[![Dependencies](https://img.shields.io/librariesio/release/npm/@kou029w/fastify-http-errors-enhanced)](https://libraries.io/npm/@kou029w/fastify-http-errors-enhanced)
+[![Build](https://github.com/kou029w/fastify-http-errors-enhanced/workflows/CI/badge.svg)](https://github.com/kou029w/fastify-http-errors-enhanced/actions?query=workflow%3ACI)
+[![Coverage](https://img.shields.io/codecov/c/gh/kou029w/fastify-http-errors-enhanced?token=ep3IRURLnT)](https://codecov.io/gh/kou029w/fastify-http-errors-enhanced)
 
 A error handling plugin for Fastify that uses enhanced HTTP errors.
 
@@ -14,7 +14,7 @@ http://sw.cowtech.it/fastify-http-errors-enhanced
 Just run:
 
 ```bash
-npm install fastify-http-errors-enhanced --save
+npm install @kou029w/fastify-http-errors-enhanced --save
 ```
 
 ## Usage
@@ -49,7 +49,7 @@ To clarify, take this server as a example:
 
 ```js
 import fastify from 'fastify'
-import fastifyHttpErrorsEnhanced from 'fastify-http-errors-enhanced'
+import fastifyHttpErrorsEnhanced from '@kou029w/fastify-http-errors-enhanced'
 import { NotFoundError } from 'http-errors-enhanced'
 
 const server = fastify()
@@ -116,7 +116,7 @@ To clarify, take this server as a example:
 
 ```js
 import fastify from 'fastify'
-import fastifyHttpErrorsEnhanced from 'fastify-http-errors-enhanced'
+import fastifyHttpErrorsEnhanced from '@kou029w/fastify-http-errors-enhanced'
 import { NotFoundError } from 'http-errors-enhanced'
 import createError from 'http-errors'
 
